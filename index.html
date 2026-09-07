@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- web site information -->
+        <meta charset="UTF-8">
+        <meta name="keywords" content="html">
+        <meta name="description" content="Single Page CV HTML page">
+        <meta name="author" content="François Marie Manexon Morin">
+        <meta http-equiv="refresh" content="30">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">       
+
+        <!-- Open Graph meta tags for social media sharing [Template] -->
+        <!-- <meta property="og:title" content="W3Schools Online Web Tutorials">
+        <meta property="og:description" content="Well organized and easy to understand Web building tutorials with lots of examples of how to use HTML, CSS, JavaScript, SQL, Python, PHP, Bootstrap, Java, XML and more.">
+        <meta property="og:image" content="https://www.w3schools.com/images/w3schools_logo_436_2.png">
+        <meta property="og:url" content="https://www.w3schools.com">
+        <meta property="og:type" content="website"> -->
+
+        <!-- OG tags for better social media sharing -->
+        <meta property="og:title" content="François Marie CV">
+        <meta property="og:description" content="Single Page CV HTML page">
+        <meta property="og:image" content="favicon.ico">
+        <meta property="og:type" content="website">
+
+        <title> François Marie CV</title>
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <link href="https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+        <style>
+            * {
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+            }
+
+            body{
+                font-family: 'Cantarell', sans-serif;
+            }
+
+            .name {
+                /* text-align: center; */
+                font-size: 2em;
+                margin-bottom: 20px;
+                padding-left: 20%;                
+                padding-top: 20px;
+                padding-right: 20%;
+            }
+
+            section{
+                /* background-color: aliceblue; */
+                margin-bottom: 20px;
+                display: flex;
+                flex-direction: column;
+                padding-left: 20%;
+                padding-right: 20%;
+                width: 100%;
+                
+            }
+
+            h1, h2, h3 {
+                margin-bottom: 10px;
+                /* background-color: lightblue; */
+
+            }
+
+            h2{
+                color: limegreen;
+            }
+
+            h3{
+                color: darkblue;
+            }
+
+            p{
+                margin-bottom: 10px;
+                /* background-color: yellow; */
+            }
+
+            ul{
+                margin-bottom: 10px;
+                /* background-color: lightgreen; */
+                padding-left: 20px;
+            }
+
+        </style>
+
+    </head>
+    <body>
+        <h1 class="name">François Marie Manexon Morin</h1>
+        <section id="contact">
+            <h2>Junior Software Engineer</h2>
+            <p>16740 48e avenue <br> Hamilton, ON L8P 1C1 <br> (555) 555-5555 
+                <br> Email: <a href="mailto:francois.marie@example.com">francois.marie@example.com</a></p>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <p>HTML, CSS, JavaScript, C#, Unity, Unreal Engine, Figma, Photoshop, Soundly, Perforce, Git, GitHub, etc.</p>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>   
+            <div id="school1">
+                <h3>Ontario College - DCS</h3>
+                <p>September 2019 to July 2022</p>
+                <p>I learned web development, software engineering, and project management.</p>
+            </div>
+
+            <div id="school2">
+                <h3>University of Toronto - BSc</h3>
+                <p>September 2022 to July 2025</p>
+                <p>I learned advanced programming concepts, algorithms, and research methodologies.</p>
+            </div>
+        </section>
+
+        <section id="experience">
+            <h2>Experience</h2>
+            <div id="job1">
+                <h3>Beam me Up, Toronto - Junior Software Engineer</h3>
+                <p>Duration: Jan 2021 - Dec 2021</p>
+                <ul>
+                    <li>Created AI assets for the game</li>
+                    <li>Worked with a team to develop new features</li>
+                    <li>Produced documentation for the software</li>
+                </ul>
+                <p>Skill gained: Web development, software engineering, project management, game development</p>
+            </div>
+
+            <div id="job2">
+                <h3>College of Toronto, Toronto - Web Developer</h3>
+                <p>Duration: Jan 2022 - Present</p>
+                <ul>
+                    <li>Developed and maintained company websites</li>
+                    <li>Collaborated with design team to implement user-friendly interfaces</li>
+                    <li>Optimized website performance and SEO</li>
+                </ul>
+                <p>Skill gained: Project management, team collaboration, web development</p>
+            </div>
+        </section>
+
+        <section id="socials">
+            <h2>Socials</h2>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/francois-marie" target="_blank">LinkedIn</a></li>
+                <li><a href="https://github.com/francois-marie" target="_blank">GitHub</a></li>
+            </ul>
+        </section>
+
+    </body>
+</html>
